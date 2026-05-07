@@ -1,9 +1,10 @@
 ---
-title: "第三章_草头王_的命名困境__武力统治与文明溯源能力的失衡"
-description: "Chapter from 地质"
+title: "第三章 “草头王” 的命名困境 —— 武力统治与文明溯源能力的失衡"
+description: "牧人记：地质篇 - 第三章 “草头王” 的命名困境 —— 武力统治与文明溯源能力的失衡"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

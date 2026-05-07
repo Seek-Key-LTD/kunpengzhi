@@ -1,9 +1,10 @@
 ---
-title: "第五章_第一产业之争农业vs商业"
-description: "Chapter from 历史"
+title: "第五章 第一产业之争：农业vs商业"
+description: "牧人记：历史篇 - 第五章 第一产业之争：农业vs商业"
+book: "牧人记：历史篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "历史"]
+tags: ['牧人记', '历史']
 editor: markdown
 ---
 

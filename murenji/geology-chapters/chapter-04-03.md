@@ -1,9 +1,10 @@
 ---
-title: "第四章_东西方星座系统的本质对比"
-description: "Chapter from 地质"
+title: "第四章 东西方星座系统的本质对比"
+description: "牧人记：地质篇 - 第四章 东西方星座系统的本质对比"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "第六章_白令陆桥很久很久以前关于马的故事"
-description: "Chapter from 地质"
+title: "第六章 白令陆桥：很久很久以前，关于马的故事"
+description: "牧人记：地质篇 - 第六章 白令陆桥：很久很久以前，关于马的故事"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "第三章黑洞的去魅从奇点到螺线深井"
-description: "Chapter from 技术"
+title: "第三章：黑洞的去魅——从“奇点”到“螺线深井”"
+description: "牧人记：技术篇 - 第三章：黑洞的去魅——从“奇点”到“螺线深井”"
+book: "牧人记：技术篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "技术"]
+tags: ['牧人记', '技术']
 editor: markdown
 ---
 

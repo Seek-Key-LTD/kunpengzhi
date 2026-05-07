@@ -1,9 +1,10 @@
 ---
-title: "第三章_28宿系统中国古代天文学的巅峰"
-description: "Chapter from 地质"
+title: "第三章 28宿系统：中国古代天文学的巅峰"
+description: "牧人记：地质篇 - 第三章 28宿系统：中国古代天文学的巅峰"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "第七章_彖Tuàn的远征东亚文明生存法门深度溯源报告"
-description: "Chapter from 地质"
+title: "第七章 彖（Tuàn）的远征：东亚文明生存法门深度溯源报告"
+description: "牧人记：地质篇 - 第七章 彖（Tuàn）的远征：东亚文明生存法门深度溯源报告"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

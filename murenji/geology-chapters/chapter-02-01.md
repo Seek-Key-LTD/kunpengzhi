@@ -1,9 +1,10 @@
 ---
-title: "第二章平城与平安__从大同的乡愁到醍醐的决裂"
-description: "Chapter from 地质"
+title: "第二章：平城与平安 —— 从大同的乡愁到醍醐的决裂"
+description: "牧人记：地质篇 - 第二章：平城与平安 —— 从大同的乡愁到醍醐的决裂"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

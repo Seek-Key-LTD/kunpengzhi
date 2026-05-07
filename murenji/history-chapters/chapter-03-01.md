@@ -1,9 +1,10 @@
 ---
-title: "第三章_重回克里姆林宫"
-description: "Chapter from 历史"
+title: "第三章 重回克里姆林宫"
+description: "牧人记：历史篇 - 第三章 重回克里姆林宫"
+book: "牧人记：历史篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "历史"]
+tags: ['牧人记', '历史']
 editor: markdown
 ---
 

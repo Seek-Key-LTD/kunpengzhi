@@ -1,9 +1,10 @@
 ---
-title: "第二章_族群迁徙的_基因密码M117_单倍体与东北亚文明传播链"
-description: "Chapter from 地质"
+title: "第二章 族群迁徙的 “基因密码”——M117 单倍体与东北亚文明传播链"
+description: "牧人记：地质篇 - 第二章 族群迁徙的 “基因密码”——M117 单倍体与东北亚文明传播链"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

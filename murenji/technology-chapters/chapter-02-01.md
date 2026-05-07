@@ -1,9 +1,10 @@
 ---
-title: "第二章连分数的诚实夹逼定理与阴阳互补"
-description: "Chapter from 技术"
+title: "第二章：连分数的诚实——夹逼定理与阴阳互补"
+description: "牧人记：技术篇 - 第二章：连分数的诚实——夹逼定理与阴阳互补"
+book: "牧人记：技术篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "技术"]
+tags: ['牧人记', '技术']
 editor: markdown
 ---
 

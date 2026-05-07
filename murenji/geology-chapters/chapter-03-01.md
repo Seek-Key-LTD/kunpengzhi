@@ -1,9 +1,10 @@
 ---
-title: "第三章_栈道与天宫__北魏的信仰工程与跨海东传"
-description: "Chapter from 地质"
+title: "第三章 栈道与天宫 —— 北魏的信仰工程与跨海东传"
+description: "牧人记：地质篇 - 第三章 栈道与天宫 —— 北魏的信仰工程与跨海东传"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

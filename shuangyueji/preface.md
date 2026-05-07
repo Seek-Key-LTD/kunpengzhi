@@ -1,11 +1,13 @@
 ---
-title: "preface"
-description: "题记"
+title: "Preface_Pre_WWII"
+description: "双约记 - Preface_Pre_WWII"
+book: "双约记"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["双约记", "历史", "地缘政治"]
+tags: ['双约记', '地缘政治']
 editor: markdown
 ---
+
 
 题记
 

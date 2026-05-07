@@ -1,9 +1,10 @@
 ---
-title: "第七章_文明的脑前叶切除术世界岛焦土上的46年记忆清洗"
-description: "Chapter from 地质"
+title: "第七章 文明的脑前叶切除术：世界岛焦土上的46年记忆清洗"
+description: "牧人记：地质篇 - 第七章 文明的脑前叶切除术：世界岛焦土上的46年记忆清洗"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

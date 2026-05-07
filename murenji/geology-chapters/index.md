@@ -1,48 +1,42 @@
 ---
-title: "README"
-description: "Chapter from 地质"
+title: "牧人记：地质篇章节列表"
 published: true
-date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
 editor: markdown
 ---
 
-# 牧兰记（中）地质篇
+# 牧人记：地质篇章节列表
 
-> 行星的液压悬挂与虚构的永恒 - 探索地球深层结构与文明起源
-
-## 📖 文档说明
-
-本目录包含《牧兰记》地质篇的拆分章节,共39个文档。涵盖亚特兰蒂斯、板块运动、火山活动等核心地质议题。
-
-## 📂 文档结构
-
-### 核心章节
-- **题记**: 行星的液压悬挂与虚构的永恒
-- **第一章**: 亚特兰蒂斯，Where Are You Now
-  - 引子: 被误读的丰饶 —— 拒绝农耕的"蚁群"
-  - 第一节: 地质认知的盲区
-  - 第二节: 那个叫理想国的亚特兰蒂斯
-- **第二章**: 来自深渊的凝视
-- **第三章**: 鲲鹏惊天变：从兴凯湖到青海湖的迁徙之路
-- **第四章**: 海市蜃楼今何在
-- **第五章**: 狐与狼的东渡 —— 从夏恩山到无马的野马台
-- **第六章**: 白令陆桥：很久很久以前，关于马的故事
-- **第七章**: 彖（Tuàn）的远征
-- **第八章**: 文明的脑前叶切除术
-
-### 关键概念
-- 林伍德石 (Ringwoodite) 与地幔水
-- 超临界水膜与板块润滑
-- 亚特兰蒂斯撞击假说
-- 丹尼索瓦人基因遗产
-- 拜火教与火山活动
-
-## 🔗 相关资源
-- [牧月记（上）技术篇](../technology-chapters/index)
-- [牧人记（下）历史篇](../history-chapters/index)
-- [词根研究](../../etymology/index)
-
----
-**生成时间**: 2026-05-07  
-**文档总数**: 39个Markdown文件
+- [chapter-01-01](chapter-01-01)
+- [chapter-01-02](chapter-01-02)
+- [chapter-01-03](chapter-01-03)
+- [chapter-01](chapter-01)
+- [chapter-02-01](chapter-02-01)
+- [chapter-02-02](chapter-02-02)
+- [chapter-02-03](chapter-02-03)
+- [chapter-02](chapter-02)
+- [chapter-03-01](chapter-03-01)
+- [chapter-03-02](chapter-03-02)
+- [chapter-03-03](chapter-03-03)
+- [chapter-03](chapter-03)
+- [chapter-04-01](chapter-04-01)
+- [chapter-04-02](chapter-04-02)
+- [chapter-04-03](chapter-04-03)
+- [chapter-04](chapter-04)
+- [chapter-05-01](chapter-05-01)
+- [chapter-05-02](chapter-05-02)
+- [chapter-05](chapter-05)
+- [chapter-06-01](chapter-06-01)
+- [chapter-06](chapter-06)
+- [chapter-07-01](chapter-07-01)
+- [chapter-07](chapter-07)
+- [intro-01](intro-01)
+- [intro-02](intro-02)
+- [intro](intro)
+- [outro-01](outro-01)
+- [outro-02](outro-02)
+- [outro-03](outro-03)
+- [outro-04](outro-04)
+- [outro-05](outro-05)
+- [outro-06](outro-06)
+- [outro-07](outro-07)
+- [outro](outro)

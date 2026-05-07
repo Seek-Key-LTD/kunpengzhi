@@ -1,9 +1,10 @@
 ---
-title: "第二章_引力雪橇_The_Gravitational_Sled"
-description: "Chapter from 技术"
+title: "第二章 引力雪橇 (The Gravitational Sled)"
+description: "牧人记：技术篇 - 第二章 引力雪橇 (The Gravitational Sled)"
+book: "牧人记：技术篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "技术"]
+tags: ['牧人记', '技术']
 editor: markdown
 ---
 

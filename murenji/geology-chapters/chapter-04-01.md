@@ -1,9 +1,10 @@
 ---
-title: "第四章_通天木塔的奇幻漂流"
-description: "Chapter from 地质"
+title: "第四章 通天木塔的奇幻漂流"
+description: "牧人记：地质篇 - 第四章 通天木塔的奇幻漂流"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "第五章_破解文明迷雾的_洛阳铲_实证工具与命名权的争夺"
-description: "Chapter from 地质"
+title: "第五章 破解文明迷雾的 “洛阳铲”—— 实证工具与命名权的争夺"
+description: "牧人记：地质篇 - 第五章 破解文明迷雾的 “洛阳铲”—— 实证工具与命名权的争夺"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

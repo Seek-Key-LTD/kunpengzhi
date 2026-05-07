@@ -1,9 +1,10 @@
 ---
-title: "第六章_结论夺回命名权__实证精神与文明实相的回归"
-description: "Chapter from 地质"
+title: "第六章 结论：夺回命名权 —— 实证精神与文明实相的回归"
+description: "牧人记：地质篇 - 第六章 结论：夺回命名权 —— 实证精神与文明实相的回归"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "第一章_象雄文明的_实证基因_九宫左旋与雍仲符号的实用本质"
-description: "Chapter from 地质"
+title: "第一章 象雄文明的 “实证基因”—— 九宫左旋与雍仲符号的实用本质"
+description: "牧人记：地质篇 - 第一章 象雄文明的 “实证基因”—— 九宫左旋与雍仲符号的实用本质"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

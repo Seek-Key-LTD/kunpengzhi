@@ -1,9 +1,10 @@
 ---
-title: "第五章天眷篇无尽的螺旋与宏大的握手"
-description: "Chapter from 技术"
+title: "第五章：天眷篇——无尽的螺旋与宏大的握手"
+description: "牧人记：技术篇 - 第五章：天眷篇——无尽的螺旋与宏大的握手"
+book: "牧人记：技术篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "技术"]
+tags: ['牧人记', '技术']
 editor: markdown
 ---
 

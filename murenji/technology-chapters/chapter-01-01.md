@@ -1,9 +1,10 @@
 ---
-title: "第一章pi_的本体论危机上帝代码中的多重身份"
-description: "Chapter from 技术"
+title: "第一章：$\pi$ 的本体论危机——上帝代码中的多重身份"
+description: "牧人记：技术篇 - 第一章：$\pi$ 的本体论危机——上帝代码中的多重身份"
+book: "牧人记：技术篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "技术"]
+tags: ['牧人记', '技术']
 editor: markdown
 ---
 

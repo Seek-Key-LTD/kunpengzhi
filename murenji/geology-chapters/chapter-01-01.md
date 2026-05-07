@@ -1,9 +1,10 @@
 ---
-title: "第一章飞狐之喉__从赵武灵王的灵丘到北魏的空中楼阁"
-description: "Chapter from 地质"
+title: "第一章：飞狐之喉 —— 从赵武灵王的灵丘到北魏的空中楼阁"
+description: "牧人记：地质篇 - 第一章：飞狐之喉 —— 从赵武灵王的灵丘到北魏的空中楼阁"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

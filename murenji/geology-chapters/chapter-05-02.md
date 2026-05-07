@@ -1,9 +1,10 @@
 ---
-title: "第五章_中国古代天文体系的全球意义"
-description: "Chapter from 地质"
+title: "第五章 中国古代天文体系的全球意义"
+description: "牧人记：地质篇 - 第五章 中国古代天文体系的全球意义"
+book: "牧人记：地质篇"
 published: true
 date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "地质"]
+tags: ['牧人记', '地质']
 editor: markdown
 ---
 

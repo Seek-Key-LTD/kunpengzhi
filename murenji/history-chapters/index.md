@@ -1,56 +1,47 @@
 ---
-title: "README"
-description: "Chapter from 历史"
+title: "牧人记：历史篇章节列表"
 published: true
-date: 2026-05-07T12:00:00.000Z
-tags: ["牧人记", "历史"]
 editor: markdown
 ---
 
-# 牧人记（下）历史篇
+# 牧人记：历史篇章节列表
 
-> 玉玺与止血石 - 探索华夏文明的历史密码与权力拓扑
-
-## 📖 文档说明
-
-本目录包含《牧人记》历史篇的拆分章节,共47个文档。涵盖玉玺政治、三星堆、丝绸之路、Web3建国理论等核心历史议题。
-
-## 📂 文档结构
-
-### 核心章节
-- **第一章**: 玉玺：华夏改朝换代的"止血石"
-  - 引子: 止血效应
-  - 第一节: 玉玺的本质：第零次分配的"确定性载体"
-  - 第二节: 有玺=低流血
-  - 第三节: 无玺=高流血
-  - 第四节: 南宋的"假玺止损"
-  - 第五节: 桑乾河的"乾"
-  - 结语: 玉玺的终极价值
-- **第二章**: 三星堆和山海经
-- **第三章**: 首字母理论与墨子疑云
-- **第四章**: 交易成本与第零次分配
-- **第五章**: 第一产业之争：农业vs商业
-- **第六章**: 孔子和麒麟
-- **第七章**: 木兰无长兄
-- **第八章**: 半江瑟瑟半江红
-- **第九章**: 那个神圣400:1的相似三角形
-- **第十章**: 流着奶和蜜的地方
-- **第十一章**: 鱼之乐和我之乐
-- **第十二章**: 黄河之水天上来 / 西北的天狼
-- **第十三章**: 从部落到国家 (未来学)
-
-### 关键概念
-- 传国玉玺与正统性
-- 第零次分配理论
-- 微生物作为隐性权力重构者
-- 权力拓扑与财税拓扑
-- Web3建国蓝图
-
-## 🔗 相关资源
-- [牧月记（上）技术篇](../technology-chapters/index)
-- [牧兰记（中）地质篇](../geology-chapters/index)
-- [词根研究](../../etymology/index)
-
----
-**生成时间**: 2026-05-07  
-**文档总数**: 47个Markdown文件
+- [chapter-01-01](chapter-01-01)
+- [chapter-01](chapter-01)
+- [chapter-02-01](chapter-02-01)
+- [chapter-02](chapter-02)
+- [chapter-03-01](chapter-03-01)
+- [chapter-03-02](chapter-03-02)
+- [chapter-03](chapter-03)
+- [chapter-04-01](chapter-04-01)
+- [chapter-04](chapter-04)
+- [chapter-05](chapter-05)
+- [chapter-06](chapter-06)
+- [chapter-07](chapter-07)
+- [chapter-08](chapter-08)
+- [chapter-09](chapter-09)
+- [chapter-10](chapter-10)
+- [chapter-11](chapter-11)
+- [chapter-12-01](chapter-12-01)
+- [chapter-12](chapter-12)
+- [chapter-13](chapter-13)
+- [intro-01](intro-01)
+- [intro-02](intro-02)
+- [intro-03](intro-03)
+- [intro-04](intro-04)
+- [intro-05](intro-05)
+- [intro](intro)
+- [outro-01](outro-01)
+- [outro-02](outro-02)
+- [outro-03](outro-03)
+- [outro-04](outro-04)
+- [outro-05](outro-05)
+- [outro-06](outro-06)
+- [outro-07](outro-07)
+- [outro-08](outro-08)
+- [outro-09](outro-09)
+- [outro-10](outro-10)
+- [outro-11](outro-11)
+- [outro-12](outro-12)
+- [outro-13](outro-13)
+- [outro](outro)
