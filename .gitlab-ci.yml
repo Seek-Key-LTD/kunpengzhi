@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+publish_to_ghost:
+  stage: deploy
+  image: python:3.9
+  only:
+    - main  # 假设 main 分支用于 Ghost 发布
+  before_script:
+    - pip install requests PyJWT PyYAML markdown-it-py
+  script:
+    - python3 ghost_sync.py shuangyueji/
+    - python3 ghost_sync.py murenji/history.md
+    - python3 ghost_sync.py murenji/geology.md
+    - python3 ghost_sync.py murenji/technology.md
+  environment:
+    name: ghost-blog
+    url: https://blog.seekkey.eu.org
