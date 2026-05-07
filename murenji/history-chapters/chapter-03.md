@@ -1,0 +1,13 @@
+---
+title: "第三章__首字母理论与墨子疑云"
+description: "Chapter from 历史"
+published: true
+date: 2026-05-07T12:00:00.000Z
+tags: ["牧人记", "历史"]
+editor: markdown
+---
+
+第三章  首字母理论与墨子疑云
+
+[墨家起源：努比亚工匠队跨文明输入中国.m4a]
+[隐藏的密码：历史的神秘逻辑.mp4]
