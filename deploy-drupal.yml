@@ -1,0 +1,76 @@
+---
+- name: Deploy Drupal to bare metal
+  hosts: ash3c
+  become: yes
+  vars:
+    drupal_path: /opt/drupal-web
+    drupal_port: 8081
+    db_host: "10.0.0.179"
+    db_user: admin
+    db_pass: "CZTqVMU9oMercE#"
+    db_name: river
+    redis_host: "172.17.0.1"
+    redis_port: 6379
+
+  tasks:
+    - name: Install PHP and dependencies
+      apt:
+        name:
+          - php8.3
+          - php8.3-mysql
+          - php8.3-xml
+          - php8.3-gd
+          - php8.3-mbstring
+          - php8.3-curl
+          - php8.3-zip
+          - php8.3-redis
+          - unzip
+        state: present
+        update_cache: yes
+
+    - name: Copy Drupal files from container
+      command: podman cp drupal:/var/www/html {{ drupal_path }}
+      args:
+        creates: "{{ drupal_path }}/index.php"
+
+    - name: Set ownership
+      file:
+        path: "{{ drupal_path }}"
+        owner: "{{ ansible_user_id }}"
+        group: "{{ ansible_user_id }}"
+        recurse: yes
+
+    - name: Create systemd service for Drupal
+      copy:
+        dest: /etc/systemd/system/drupal.service
+        content: |
+          [Unit]
+          Description=Drupal Application
+          After=network.target
+
+          [Service]
+          Type=simple
+          User={{ ansible_user_id }}
+          WorkingDirectory={{ drupal_path }}
+          ExecStart=/usr/bin/php -S 0.0.0.0:{{ drupal_port }}
+          Restart=always
+          RestartSec=5
+
+          [Install]
+          WantedBy=multi-user.target
+
+    - name: Enable and start Drupal service
+      systemd:
+        name: drupal
+        enabled: yes
+        state: started
+        daemon_reload: yes
+
+    - name: Verify Drupal is running
+      uri:
+        url: "http://localhost:{{ drupal_port }}"
+        status_code: 200
+      register: result
+      retries: 5
+      delay: 3
+      until: result.status == 200
