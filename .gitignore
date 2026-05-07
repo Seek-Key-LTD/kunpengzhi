@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE / Tools
+.arts/
+.codeartsdoer/
+.codebuddy/
+.workbuddy/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
