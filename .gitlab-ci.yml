@@ -4,6 +4,7 @@ stages:
 deploy_wikijs:
   stage: deploy
   script:
+    - git remote remove aliyun || true
     - git remote add aliyun https://houzhongxu:${YUNXIAO_ACCESS_TOKEN}@codeup.aliyun.com/698053416ec1ba182dc6e452/seekkey/kunpengzhi.git
     - git push aliyun HEAD:refs/heads/wikijs-new
   only:
