@@ -1,4 +1,6 @@
 import os
+import re
+import json
 import jwt
 import requests
 import time
@@ -28,15 +30,14 @@ def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         raw_content = f.read()
     
-    # More robust splitting
-    if raw_content.startswith('---'):
+    # Use regex to match frontmatter between the first two sets of ---
+    match = re.match(r'^---\s*\n(.*?)\n---\s*\n', raw_content, re.DOTALL)
+    if match:
         try:
-            parts = raw_content.split('---')
-            if len(parts) >= 3:
-                fm_text = parts[1]
-                md_content = '---'.join(parts[2:]).strip()
-                frontmatter = yaml.safe_load(fm_text)
-                return frontmatter, md_content
+            fm_text = match.group(1)
+            md_content = raw_content[match.end():].strip()
+            frontmatter = yaml.safe_load(fm_text)
+            return frontmatter, md_content
         except Exception as e:
             print(f"⚠ Frontmatter error in {file_path}: {e}")
     
@@ -150,7 +151,10 @@ def sync_directory(directory):
         for file in files:
             if file.endswith('.md') and not file.startswith('index'):
                 file_path = os.path.join(root, file)
-                sync_post(file_path)
+                try:
+                    sync_post(file_path)
+                except Exception as e:
+                    print(f"⚠ Failed to sync {file_path}: {e}")
 
 if __name__ == "__main__":
     import sys
