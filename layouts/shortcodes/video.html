@@ -1,0 +1,7 @@
+<div class="video-container">
+    <video controls width="100%">
+        <source src="{{ .Get "src" }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    {{ with .Get "caption" }}<p class="caption">{{ . }}</p>{{ end }}
+</div>

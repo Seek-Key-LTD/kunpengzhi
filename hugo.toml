@@ -1,0 +1,25 @@
+baseURL = 'https://kunpengzhi.fun/'
+languageCode = 'zh-cn'
+title = '鲲鹏志 - Agentic Network'
+theme = 'ananke' # Default theme placeholder
+
+[params]
+  description = 'Agentic Network 知识库'
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = '牧人记'
+    url = '/牧人记/'
+    weight = 2
+  [[menu.main]]
+    name = '双约记'
+    url = '/双约记/'
+    weight = 3
+  [[menu.main]]
+    name = '词根考据'
+    url = '/词根考据/'
+    weight = 4

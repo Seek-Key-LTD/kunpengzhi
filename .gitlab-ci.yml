@@ -1,0 +1,22 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: peaceiris/hugo:latest # Or your local hugo environment
+  script:
+    - hugo --minify
+  artifacts:
+    paths:
+      - public/
+
+deploy_minio:
+  stage: deploy
+  script:
+    - # Example using minio client (mc)
+    - # mc alias set myminio $MINIO_ENDPOINT $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
+    - # mc mirror --overwrite public/ myminio/kunpengzhi-bucket
+    - echo "Deploying to Minio on PBS host..."
+  only:
+    - hugo
