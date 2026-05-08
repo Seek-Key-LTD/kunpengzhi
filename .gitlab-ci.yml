@@ -1,22 +1,31 @@
+# 鲲鹏志本地构建配置 (pbs3 专用)
+variables:
+  # 如果您的 Web 服务器根目录在本地，可以直接定义这个变量
+  WEB_ROOT: "/var/www/kunpengzhi"
+
 stages:
   - build
   - deploy
 
-build:
+build_site:
   stage: build
-  image: peaceiris/hugo:latest # Or your local hugo environment
+  tags:
+    - pbs # 请确保您的 GitLab Runner 注册时填写的 tag 包含 'pbs'
   script:
     - hugo --minify
   artifacts:
     paths:
       - public/
 
-deploy_minio:
+deploy_local:
   stage: deploy
+  tags:
+    - pbs
   script:
-    - # Example using minio client (mc)
-    - # mc alias set myminio $MINIO_ENDPOINT $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
-    - # mc mirror --overwrite public/ myminio/kunpengzhi-bucket
-    - echo "Deploying to Minio on PBS host..."
+    # 这里是把生成的静态文件部署到您指定的目录
+    # 如果您打算用 MinIO 托管整个站点，也可以在这里用 mc mirror
+    - echo "Deploying Hugo site to local web root..."
+    - cp -r public/* $WEB_ROOT/ || true
+    - echo "Deployment complete."
   only:
     - hugo
