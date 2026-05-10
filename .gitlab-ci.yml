@@ -18,7 +18,8 @@ sync_to_github:
     - git config --global user.email "ci@gitlab.local"
     - git config --global user.name "GitLab CI"
     - git remote add github "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" 2>/dev/null || true
-    - git push -f github hugo
+    # 在 detached HEAD 状态下推送当前分支
+    - git push -f github HEAD:hugo
     - echo "代码已同步到 GitHub!"
   only:
     - hugo
