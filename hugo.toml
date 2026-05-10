@@ -1,6 +1,7 @@
 baseURL = 'https://kunpengzhi.fun/'
 locale = 'zh-cn'
 title = '鲲鹏志 - Agentic Network'
+theme = 'ananke'
 
 [params]
   description = 'Agentic Network 知识库'
@@ -22,7 +23,3 @@ title = '鲲鹏志 - Agentic Network'
     name = '词根考据'
     url = '/词根考据/'
     weight = 4
-
-[module]
-  [[module.imports]]
-    path = 'github.com/theNewDynamic/gohugo-theme-ananke'
