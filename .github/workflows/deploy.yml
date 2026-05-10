@@ -25,7 +25,7 @@ jobs:
       - name: Initialize Hugo Module
         run: |
           hugo mod init github.com/Seek-Key-LTD/kunpengzhi
-          hugo mod get github.com/theNewDynamic/gohugo-theme-ananke@latest
+          hugo mod tidy
 
       - name: Build
         run: hugo --minify
