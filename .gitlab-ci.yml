@@ -1,45 +1,24 @@
-# 鲲鹏志 CI/CD 配置 - GitLab 作为唯一源头，自动部署到 GitHub Pages
+# 鲲鹏志 CI/CD 配置 - Runner 作为二传手
+# GitLab -> Runner -> GitHub (代码同步)
+# GitHub Actions 负责构建和部署到 Pages
+
 variables:
   GITHUB_USERNAME: "Seek-Key-LTD"
   GITHUB_REPO: "kunpengzhi"
-  HUGO_VERSION: "0.161.1"
 
 stages:
-  - build
-  - deploy
+  - sync
 
-build_site:
-  stage: build
+sync_to_github:
+  stage: sync
   tags:
     - group
   script:
-    - echo "安装 Hugo ${HUGO_VERSION}..."
-    - wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-    - tar -xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-    - mv hugo /usr/local/bin/
-    - hugo version
-    - echo "构建 Hugo 站点..."
-    - hugo --minify
-  artifacts:
-    paths:
-      - public/
-
-deploy_to_github:
-  stage: deploy
-  tags:
-    - group
-  script:
-    - echo "部署到 GitHub Pages..."
+    - echo "配置 Git..."
     - git config --global user.email "ci@gitlab.local"
     - git config --global user.name "GitLab CI"
-    - mkdir -p /tmp/gh-pages
-    - cd /tmp/gh-pages
-    - git init
-    - git checkout -b gh-pages
-    - cp -r $CI_PROJECT_DIR/public/* .
-    - git add .
-    - git commit -m "Deploy Hugo site [CI]"
-    - git push -f "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" gh-pages
-    - echo "部署完成！"
+    - git remote add github "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" 2>/dev/null || true
+    - git push -f github hugo
+    - echo "代码已同步到 GitHub!"
   only:
     - hugo
