@@ -1,0 +1,25 @@
+# Local configurations
+.obsidian/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and temporary files
+__pycache__/
+*.pyc
+
+# Content related (App specific or untracked local versions)
+content/
+双约记/
+ghost/
+wikijs/
+drupal/
+bookstack/
+hugo/
+
+# Secrets
+*.key
+*.pem
+*.token
