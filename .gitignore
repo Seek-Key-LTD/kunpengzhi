@@ -1,0 +1,19 @@
+# Hugo generated files
+public/
+resources/
+*.log
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Obsidian
+.obsidian/
+
+# Trash
+.trash/
+
+# Copilot generated content
+copilot/

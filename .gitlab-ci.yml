@@ -1,7 +1,8 @@
-# 鲲鹏志本地构建配置 (pbs3 专用)
+# 鲲鹏志 CI/CD 配置 - 使用 GitHub Token 推送到 GitHub Pages
 variables:
-  # 如果您的 Web 服务器根目录在本地，可以直接定义这个变量
-  WEB_ROOT: "/var/www/kunpengzhi"
+  # 在 GitLab CI/CD 变量中配置 GITHUB_TOKEN
+  GITHUB_USERNAME: "Seek-Key-LTD"  # GitHub 组织名
+  GITHUB_REPO: "kunpengzhi"         # GitHub 仓库名
 
 stages:
   - build
@@ -10,22 +11,32 @@ stages:
 build_site:
   stage: build
   tags:
-    - pbs # 请确保您的 GitLab Runner 注册时填写的 tag 包含 'pbs'
+    - group
   script:
     - hugo --minify
   artifacts:
     paths:
       - public/
 
-deploy_local:
+deploy_to_github:
   stage: deploy
   tags:
-    - pbs
+    - group
   script:
-    # 这里是把生成的静态文件部署到您指定的目录
-    # 如果您打算用 MinIO 托管整个站点，也可以在这里用 mc mirror
-    - echo "Deploying Hugo site to local web root..."
-    - cp -r public/* $WEB_ROOT/ || true
-    - echo "Deployment complete."
+    - echo "部署到 GitHub Pages..."
+    # 配置 Git
+    - git config --global user.email "ci@gitlab.local"
+    - git config --global user.name "GitLab CI"
+    # 创建临时目录用于 gh-pages
+    - mkdir -p /tmp/gh-pages
+    - cd /tmp/gh-pages
+    - git init
+    - git checkout -b gh-pages
+    - cp -r $CI_PROJECT_DIR/public/* .
+    - git add .
+    - git commit -m "Deploy Hugo site to GitHub Pages [CI]"
+    # 使用 Token 通过 HTTPS 推送
+    - git push -f "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" gh-pages
+    - echo "部署完成！"
   only:
     - hugo
