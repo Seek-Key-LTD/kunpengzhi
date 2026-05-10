@@ -1,7 +1,4 @@
-# 鲲鹏志 CI/CD 配置 - Runner 作为二传手
-# GitLab -> Runner -> GitHub (代码同步)
-# GitHub Actions 负责构建和部署到 Pages
-
+# 鲲鹏志 CI/CD 配置
 stages:
   - sync
 
@@ -10,16 +7,10 @@ sync_to_github:
   tags:
     - group
   script:
-    - echo "配置 Git..."
     - git config --global user.email "ci@gitlab.local"
     - git config --global user.name "GitLab CI"
-    # 调试：检查变量是否存在
-    - echo "GITHUB_TOKEN is set: ${GITHUB_TOKEN:0:10}..."
-    # 使用环境变量方式
     - export GITHUB_URL="https://${GITHUB_TOKEN}@github.com/Seek-Key-LTD/kunpengzhi.git"
-    - echo "GITHUB_URL: ${GITHUB_URL:0:60}..."
     - git remote add github "$GITHUB_URL" 2>/dev/null || git remote set-url github "$GITHUB_URL"
     - git push -f github HEAD:hugo
-    - echo "代码已同步到 GitHub!"
   only:
     - hugo
