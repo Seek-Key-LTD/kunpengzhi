@@ -1,7 +1,7 @@
 ---
 title: "词根节点: HEBREW"
 description: "## 语义核心 一神/火种/出走/契约/复活/希伯来"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

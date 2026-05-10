@@ -1,4 +1,6 @@
 [
   "global-proxy",
-  "obsidian-git"
+  "obsidian-git",
+  "rss-dashboard",
+  "copilot"
 ]

@@ -1,7 +1,7 @@
 ---
 title: "双约记"
 description: "双约记 landing page"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["双约记"]
 editor: markdown

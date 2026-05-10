@@ -1,7 +1,7 @@
 ---
 title: "词根节点: NUBIA"
 description: "## 语义核心 努比亚/精绝/黑/工匠/墨家/炎帝/尼雅"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

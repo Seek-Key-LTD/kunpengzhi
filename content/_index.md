@@ -1,7 +1,7 @@
 ---
 title: "Agentic Network Wiki"
 description: "Agentic Network 知识库主页"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["home", "index"]
 editor: markdown

@@ -1,7 +1,7 @@
 ---
 title: "词根节点: MUMMY"
 description: "## 语义核心 木乃伊/妈咪/蚁后/金缕玉衣/茧/沥青/复活/等待"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

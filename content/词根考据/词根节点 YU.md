@@ -1,7 +1,7 @@
 ---
 title: "词根节点: YU"
 description: "## 语义核心 疏/通/泄洪/工程/水利/大禹"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

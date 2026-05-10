@@ -1,7 +1,7 @@
 ---
 title: "牧人记系列"
 description: "牧人记系列 landing page"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["牧人记"]
 editor: markdown

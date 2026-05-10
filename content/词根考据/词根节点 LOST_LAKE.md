@@ -1,7 +1,7 @@
 ---
 title: "词根节点: LOST_LAKE"
 description: "## 语义核心 失落的湖/大同古湖/泥河湾/永定河/北京/百万年遗址"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

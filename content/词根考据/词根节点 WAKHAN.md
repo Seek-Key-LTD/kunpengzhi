@@ -1,7 +1,7 @@
 ---
 title: "词根节点: WAKHAN"
 description: "## 语义核心 瓦罕走廊/泄洪咽喉/K音密码/坎儿井/咔哇咔/玉石之路"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

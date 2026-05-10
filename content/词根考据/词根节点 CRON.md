@@ -1,7 +1,7 @@
 ---
 title: "词根节点: CRON"
 description: "## 语义核心 冠/王/复本/延续/圆形/时间/克隆"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

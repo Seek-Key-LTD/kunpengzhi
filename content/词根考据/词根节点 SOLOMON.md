@@ -1,7 +1,7 @@
 ---
 title: "词根节点: SOLOMON"
 description: "## 语义核心 所罗门/智慧王/撒马尔罕/金桃/祭司王约翰"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

@@ -1,7 +1,7 @@
 ---
 title: "词根节点: YALE"
 description: "## 语义核心 雅/天/水/高/黄金/耶鲁/雅礼/阿里巴巴"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

@@ -1,7 +1,7 @@
 ---
 title: "KUSHA — 山 / 路由节点 / 文明枢纽"
 description: "> 状态：重构中 | 置信度：高"
-published: true
+published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown
