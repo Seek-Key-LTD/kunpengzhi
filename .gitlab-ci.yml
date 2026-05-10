@@ -1,8 +1,7 @@
-# 鲲鹏志 CI/CD 配置 - 使用 GitHub Token 推送到 GitHub Pages
+# 鲲鹏志 CI/CD 配置 - GitLab 作为唯一源头，自动部署到 GitHub Pages
 variables:
-  # 在 GitLab CI/CD 变量中配置 GITHUB_TOKEN
-  GITHUB_USERNAME: "Seek-Key-LTD"  # GitHub 组织名
-  GITHUB_REPO: "kunpengzhi"         # GitHub 仓库名
+  GITHUB_USERNAME: "Seek-Key-LTD"
+  GITHUB_REPO: "kunpengzhi"
   HUGO_VERSION: "0.161.1"
 
 stages:
@@ -31,18 +30,15 @@ deploy_to_github:
     - group
   script:
     - echo "部署到 GitHub Pages..."
-    # 配置 Git
     - git config --global user.email "ci@gitlab.local"
     - git config --global user.name "GitLab CI"
-    # 创建临时目录用于 gh-pages
     - mkdir -p /tmp/gh-pages
     - cd /tmp/gh-pages
     - git init
     - git checkout -b gh-pages
     - cp -r $CI_PROJECT_DIR/public/* .
     - git add .
-    - git commit -m "Deploy Hugo site to GitHub Pages [CI]"
-    # 使用 Token 通过 HTTPS 推送
+    - git commit -m "Deploy Hugo site [CI]"
     - git push -f "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" gh-pages
     - echo "部署完成！"
   only:
