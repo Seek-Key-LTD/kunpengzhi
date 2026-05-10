@@ -23,9 +23,7 @@ jobs:
           extended: true
 
       - name: Initialize Hugo Module
-        run: |
-          hugo mod init github.com/Seek-Key-LTD/kunpengzhi
-          hugo mod tidy
+        run: hugo mod tidy
 
       - name: Build
         run: hugo --minify
