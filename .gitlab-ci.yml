@@ -3,7 +3,7 @@ variables:
   # 在 GitLab CI/CD 变量中配置 GITHUB_TOKEN
   GITHUB_USERNAME: "Seek-Key-LTD"  # GitHub 组织名
   GITHUB_REPO: "kunpengzhi"         # GitHub 仓库名
-  HUGO_VERSION: "0.125.0"
+  HUGO_VERSION: "0.161.1"
 
 stages:
   - build
