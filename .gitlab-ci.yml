@@ -1,4 +1,3 @@
-# 鲲鹏志 CI/CD 配置
 stages:
   - sync
 
@@ -7,6 +6,11 @@ sync_to_github:
   tags:
     - group
   script:
+    - echo "=== Debug Info ==="
+    - echo "CI_PROJECT_DIR: $CI_PROJECT_DIR"
+    - echo "GITHUB_TOKEN exists: ${GITHUB_TOKEN:+yes}"
+    - echo "GITHUB_TOKEN length: ${#GITHUB_TOKEN}"
+    - echo "=== End Debug ==="
     - git config --global user.email "ci@gitlab.local"
     - git config --global user.name "GitLab CI"
     - export GITHUB_URL="https://${GITHUB_TOKEN}@github.com/Seek-Key-LTD/kunpengzhi.git"
