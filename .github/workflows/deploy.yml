@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,8 +19,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.161.1'
           extended: true
+
+      - name: Initialize Hugo Module
+        run: |
+          hugo mod init github.com/Seek-Key-LTD/kunpengzhi
+          hugo mod get github.com/theNewDynamic/gohugo-theme-ananke@latest
 
       - name: Build
         run: hugo --minify
