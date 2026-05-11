@@ -38,11 +38,11 @@
 ## 目录结构 (Directory Structure)
 
 ```
-├── murenji/              # 牧人三部曲原始稿件
-│   ├── history-chapters/ # 历史篇章节 (自动生成)
-│   ├── geology-chapters/ # 地质篇章节 (自动生成)
-│   └── technology-chapters/ # 技术篇章节 (自动生成)
-├── shuangyueji/          # 双约记章节 (自动生成)
+├── murenji/              # 牧人三部曲原始稿件 (Source)
+├── 牧人记/                # 历史篇章节 (Standardized)
+├── 牧兰记/                # 地质篇章节 (Standardized)
+├── 牧月记/                # 技术篇章节 (Standardized)
+├── 双约记/                # 双约记章节 (Standardized)
 ├── etymology/            # 词根研究
 ├── MANIFEST.md           # 内容清单与拆分进度
 └── README.md             # 项目说明

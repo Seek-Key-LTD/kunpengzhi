@@ -9,14 +9,14 @@ editor: markdown
 
 # 牧人记系列
 
-## 合订本
+本项目由三个子篇章组成，现已按章节完成规格化整理。
+
+- [牧人记：历史篇 (目录)](牧人记/目录)
+- [牧兰记：地质篇 (目录)](牧兰记/目录)
+- [牧月记：技术篇 (目录)](牧月记/目录)
+
+## 原始稿件
 
 - [历史篇合订本](murenji/history)
 - [地质篇合订本](murenji/geology)
 - [技术篇合订本](murenji/technology)
-
-## 分章节阅读
-
-- [历史篇分章目录](murenji/history-chapters/index)
-- [地质篇分章目录](murenji/geology-chapters/index)
-- [技术篇分章目录](murenji/technology-chapters/index)
