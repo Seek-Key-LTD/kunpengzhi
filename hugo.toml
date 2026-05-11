@@ -7,6 +7,8 @@ ignoreErrors = ["error-output-escaping", "error-invalid-frontmatter"]
 
 [params]
   description = 'Agentic Network 知识库'
+  BookTheme = 'dark'
+  BookSection = '*'
 
 [menu]
   [[menu.main]]
