@@ -1,57 +1,51 @@
-# 鲲鹏志 (Kunpengzhi: The Kun-Peng Chronicles)
+# 鲲鹏志 - Hugo 静态网站发布分支 (hugo branch)
 
-> "Once upon a time on a horseback."
+> "本项目通过 Hugo 驱动，实现《鲲鹏志》全书的静态网页展示与分发。"
 
-鲲鹏志是一个跨学科叙事项目，旨在通过地缘政治、技术演进、地质变迁及词源考据，构建一套完整的文明路由逻辑。
+本分支是《鲲鹏志》项目的 **Hugo 发布端**，专门用于构建并部署静态网站（GitHub Pages / 华为云等）。它从 `main` 分支接收规格化的内容，并通过 Hugo 模板进行排版优化。
 
-## 项目结构 (Project Structure)
+## 本地开发 (Local Development)
 
-本项目由四个核心标准化模块组成，作为全平台分发的内容源头：
+在本机运行前，请确保已安装 [Hugo](https://gohugo.io/installation/)（推荐 v0.159.0+）。
 
-*   **[牧人记：历史篇](./牧人记/目录.md)**：华夏文明演进的底层逻辑审计。
-*   **[牧兰记：地质篇](./牧兰记/目录.md)**：行星级液压系统与地质变迁专题。
-*   **[牧月记：技术篇](./牧月记/目录.md)**：宇宙起源、黑洞悖论与时空审计报告。
-*   **[双约记：地缘政治](./双约记/目录.md)**：近现代地缘政治格局与雅尔塔体系分析。
+1.  **克隆主题** (如果 `themes/ananke` 为空):
+    ```bash
+    git clone --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+    ```
 
----
+2.  **本地预览**:
+    ```bash
+    hugo server -D
+    ```
+    访问 `http://localhost:1313` 即可预览。
 
-## 分支策略 (Branching Strategy)
+3.  **手动构建**:
+    ```bash
+    hugo --minify
+    ```
 
-本项目采用多分支解耦工作流：
+## 目录结构说明 (Structure)
 
-*   **`main` 分支 (Source)**：**内容源头与审计中心**。负责章节规格化、元数据维护。
-*   **`wikijs` 分支**：Wiki.js 知识库后端，采用中文路径与特定 frontmatter。
-*   **`ghost` 分支**：Ghost 博客发布端，包含排版优化。
-*   **`i18n` 分支**：多语言翻译专项分支。
+本分支遵循 Hugo 标准目录结构：
 
----
+*   `content/`：存放全书 Markdown 源码（由 `main` 分支同步而来）。
+    *   `牧人记/`、`牧兰记/`、`牧月记/`、`双约记/`
+*   `themes/ananke`：使用的前端主题。
+*   `layouts/shortcodes/`：自定义的音视频嵌入组件。
+*   `hugo.toml`：Hugo 核心配置文件。
+*   `.github/workflows/deploy.yml`：GitHub Actions 自动部署脚本。
 
-## 管理与审计 (Management & Auditing)
+## 自动化部署 (CI/CD)
 
-项目的日常维护与工程进度通过以下文档进行“规格化”管理：
-
-1.  **[MANIFEST.md](./MANIFEST.md)**：**内容清单与拆分进度**。记录全书稿件的完整度、审计状态及章节映射。
-2.  **[agents.md](./agents.md)**：**AI Agent 任务日志**。实时记录 Agent 对仓库进行的重构、清理及发布操作。
-3.  **[GOVERNANCE.md](./GOVERNANCE.md)**：**法人治理结构**。规定了项目所有权（ben 为唯一裁定者）及 Agent 协作的宪法准则。
-4.  **[home.md](./home.md)**：**知识库门户**。定义了 Wiki.js 等应用端的展示入口逻辑。
-
----
-
-## 目录结构 (Directory Structure)
-
-```
-├── 牧人记/           # 历史篇 - 标准化章节
-├── 牧兰记/           # 地质篇 - 标准化章节
-├── 牧月记/           # 技术篇 - 标准化章节
-├── 双约记/           # 地缘政治 - 标准化章节
-├── MANIFEST.md      # 内容清单 (审计核心)
-├── agents.md        # Agent 任务跟踪
-├── GOVERNANCE.md    # 治理准则 (宪法)
-└── README.md        # 项目全局说明 (本文件)
-```
+*   **同步流**：GitLab (origin) -> GitHub (github) & 阿里云 (aliyun)。
+*   **发布流**：每次推送到本分支的 `hugo` 分支时，GitHub Actions 会自动触发构建，并将结果部署至 [kunpengzhi.fun](https://kunpengzhi.fun/)。
 
 ---
 
-## 自动化说明
+## 注意事项
 
-推送至 `main` 分支后，系统会自动触发内容校验，并作为上游源分发至各发布分支。原始底稿已从仓库中移除并存档至本地 `/tmp/kunpengzhi/` 以保持 Source 分支的纯净。
+1.  **元数据冲突**：本分支的文件 Frontmatter 已将 `published` 字段更名为 `is_published`，以避免 Hugo 内置日期解析器报错。
+2.  **内容修改**：如需修改书稿内容，请优先在 `main` 分支进行，由同步脚本自动分发至本分支。本分支主要负责**配置、样式与发布逻辑**的迭代。
+
+---
+[返回项目全景 MANIFEST.md](./MANIFEST.md) | [查看同步状态 agents.md](./agents.md)
