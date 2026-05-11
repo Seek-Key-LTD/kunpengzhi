@@ -2,7 +2,7 @@
 title: "第二章 引力雪橇 (The Gravitational Sled)"
 description: "牧月记 - 第二章 引力雪橇 (The Gravitational Sled)"
 book: "牧月记"
-published: "true"
+is_published: "true"
 date: "2026-05-07T12:00:00.000Z"
 tags: ['牧月记', '技术']
 editor: "markdown"

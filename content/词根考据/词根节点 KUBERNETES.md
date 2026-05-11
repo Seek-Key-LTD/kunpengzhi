@@ -1,7 +1,7 @@
 ---
 title: "词根节点: KUBERNETES"
 description: "## 语义核心 容器编排/七辐船舵/七曜烛台/掌舵者/控制论"
-published: "2026-05-10"
+is_published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

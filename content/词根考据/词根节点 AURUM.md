@@ -1,7 +1,7 @@
 ---
 title: "词根节点: AURUM"
 description: "## 语义核心 黄金/黄金家族/金/Orichalcum/金道锡行/液体黄金"
-published: "2026-05-10"
+is_published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

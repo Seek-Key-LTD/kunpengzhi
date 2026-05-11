@@ -2,7 +2,7 @@
 title: "第一章 亚特兰蒂斯，Where Are You Now"
 description: "牧兰记 - 第一章 亚特兰蒂斯，Where Are You Now"
 book: "牧兰记"
-published: "true"
+is_published: "true"
 date: "2026-05-07T12:00:00.000Z"
 tags: ['牧兰记', '地质']
 editor: "markdown"

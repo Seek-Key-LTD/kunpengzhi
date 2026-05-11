@@ -1,7 +1,7 @@
 ---
 title: "词根节点: BODHI_WATER"
 description: "## 语义核心 百万年遗址/泥河湾/北京西北/磁场感知/连续人类活动"
-published: "2026-05-10"
+is_published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown

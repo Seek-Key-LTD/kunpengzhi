@@ -2,7 +2,7 @@
 title: "第十二章 彖（Tuàn）的远征：东亚文明生存法门深度溯源报告"
 description: "牧兰记 - 第十二章 彖（Tuàn）的远征：东亚文明生存法门深度溯源报告"
 book: "牧兰记"
-published: "true"
+is_published: "true"
 date: "2026-05-07T12:00:00.000Z"
 tags: ['牧兰记', '地质']
 editor: "markdown"

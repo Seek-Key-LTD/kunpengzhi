@@ -1,7 +1,7 @@
 ---
 title: "词根节点: ALIYAL"
 description: "## 语义核心 雅利安/白人优越论/高加索叙事/北寒带特征/文明真相"
-published: "2026-05-10"
+is_published: "2026-05-10"
 date: 2026-05-07T12:00:00.000Z
 tags: ["词根", "语言", "考据"]
 editor: markdown
