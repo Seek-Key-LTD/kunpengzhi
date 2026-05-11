@@ -1,7 +1,7 @@
 baseURL = 'https://kunpengzhi.fun/'
 locale = 'zh-cn'
 title = '鲲鹏志 - Agentic Network'
-theme = 'ananke'
+theme = 'hugo-book'
 themesDir = 'themes'
 ignoreErrors = ["error-output-escaping", "error-invalid-frontmatter"]
 
