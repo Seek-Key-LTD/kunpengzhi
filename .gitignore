@@ -1,7 +1,6 @@
 # Local configurations
 .obsidian/
 .env
-TMP/
 
 # OS files
 .DS_Store
