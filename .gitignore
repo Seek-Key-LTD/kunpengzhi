@@ -22,3 +22,7 @@ hugo/
 *.key
 *.pem
 *.token
+
+# Build output
+public/
+resources/

@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "8fc8c3488fbdfe66",
+    "type": "split",
+    "children": [
+      {
+        "id": "4203eb75e8dd003a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ef6d6f383662fc1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dcde1cac9d6a67c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fd0b4306b7063d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5363e012eee53001",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "3cf527994ce41476",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5347863e3b36e44d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6b43e549b75f23f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cfb9a4b30b01326",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "411b10d96dc6c306",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "aca45565631fcc83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "18e1d72e001c1a11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "526fc74b40c0fa47",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "1f24dce368e5b715",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "5dbcaef7b21dadb4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 441.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5dbcaef7b21dadb4",
+  "lastOpenFiles": [
+    "fix_all_links.py",
+    "split_murenji_v8.py",
+    "split_murenji_v7.py",
+    "split_murenji_v6.py",
+    "split_murenji_v5.py",
+    "split_murenji_v4.py",
+    "未命名.base",
+    "双约记_files.txt",
+    "词根考据_files.txt",
+    "双约记/目录.md",
+    "词根考据/目录.md",
+    "牧人记/技术篇/目录.md",
+    "牧人记/技术篇/第六章_量子计算核心原理从叠加态到纠缠.md",
+    "牧人记/技术篇/第五章天眷篇——无尽的螺旋与宏大的握手.md",
+    "牧人记/技术篇/第四章碗形宇宙——哈勃红移的彻底清算.md",
+    "牧人记/技术篇/第三章黑洞的去魅——从“奇点”到“螺线深井”.md",
+    "牧人记/技术篇/第二章连分数的诚实——夹逼定理与阴阳互补.md",
+    "牧人记/技术篇/第一章pi_的本体论危机——上帝代码中的多重身份.md",
+    "牧人记/技术篇/序言.md",
+    "牧人记/地质篇/序言.md",
+    "牧人记/历史篇/序言.md",
+    "split_murenji_v3.py",
+    "牧人记/技术篇/结语引力龙脉上的文明账单.md",
+    "牧人记/技术篇/第四节_飞行的金字塔数列多米诺雪橇.md",
+    "牧人记/技术篇/第四节_无法抵达的无限黑洞的“三六九等”与分级逻辑.md",
+    "牧人记/技术篇/第四节_引力热力学的精华·引力熵.md",
+    "牧人记/技术篇/第四节_地月耦合二十亿年的地质锤炼与引力熵归零.md",
+    "牧人记/技术篇/第四章_反重力和黑洞信息悖论.md",
+    "牧人记/技术篇/第五节_弃尸太阳水星的无妄之灾与时空卷曲.md",
+    "牧人记/技术篇/第五节_宇宙的收支平衡黑洞的全生命周期审计.md",
+    "牧人记/技术篇/第五章_从圆周率到宇宙几何一份关于时空坏账的终极审计报告.md",
+    "牧人记/技术篇/第二节混沌之心与创世王冠.md",
+    "牧人记/技术篇/第二节_血色挡风玻璃小行星带的轨道重塑.md",
+    "牧人记/技术篇/第二节_结构平方数的阵列_(The_Square_Array).md",
+    "牧人记/技术篇/第二节_奇点的流氓逻辑与不对等暴政.md",
+    "牧人记/技术篇"
+  ]
+}
