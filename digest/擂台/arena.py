@@ -106,18 +106,18 @@ class DebateArena:
 - 不许问"要不要继续"，直接输出完整辩论
 """
 
-        # 用 Gemini 跑辩论
-        print("\n🎤 辩论开始...\n")
-        proc = await asyncio.create_subprocess_exec(
-            "pi", "--model", "google-vertex/gemini-2.5-flash",
-            "--no-session", "-p", debate_prompt,
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-            cwd="/home/ben/kunpengzhi",
+        # 通过 liteLLM 调用 Vertex AI
+        import openai
+        client = openai.AsyncOpenAI(
+            base_url="http://localhost:4000/v1",
+            api_key="sk-47318",
         )
-
-        stdout, stderr = await proc.communicate()
-        debate_text = stdout.decode("utf-8", errors="replace")
+        print("\n🎤 辩论开始...\n")
+        response = await client.chat.completions.create(
+            model="gemini-2.5-flash",
+            messages=[{"role": "user", "content": debate_prompt}],
+        )
+        debate_text = response.choices[0].message.content
 
         if debate_text.strip():
             self.transcript.append(("辩论正赛", debate_text))
@@ -169,17 +169,17 @@ class DebateArena:
 - 不许问"要不要继续"
 """
 
-        print("\n🍵 讲茶大堂开张...\n")
-        proc = await asyncio.create_subprocess_exec(
-            "pi", "--model", "google-vertex/gemini-2.5-flash",
-            "--no-session", "-p", teahouse_prompt,
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-            cwd="/home/ben/kunpengzhi",
+        import openai
+        client = openai.AsyncOpenAI(
+            base_url="http://localhost:4000/v1",
+            api_key="sk-47318",
         )
-
-        stdout, stderr = await proc.communicate()
-        teahouse_text = stdout.decode("utf-8", errors="replace")
+        print("\n🍵 讲茶大堂开张...\n")
+        response = await client.chat.completions.create(
+            model="gemini-2.5-flash",
+            messages=[{"role": "user", "content": teahouse_prompt}],
+        )
+        teahouse_text = response.choices[0].message.content
 
         if teahouse_text.strip():
             self.teahouse_comments.append(("讲茶大堂", teahouse_text))
