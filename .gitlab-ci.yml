@@ -16,14 +16,6 @@ sync_all:
       else
         echo "GITHUB_TOKEN not found, skipping GitHub sync.";
       fi
-    - |
-      if [ -n "$YUNXIAO_ACCESS_TOKEN" ]; then
-        echo "Syncing to Aliyun...";
-        git remote add ali "https://houzhongxu:${YUNXIAO_ACCESS_TOKEN}@codeup.aliyun.com/698053416ec1ba182dc6e452/seekkey/kunpengzhi.git" 2>/dev/null || git remote set-url ali "https://houzhongxu:${YUNXIAO_ACCESS_TOKEN}@codeup.aliyun.com/698053416ec1ba182dc6e452/seekkey/kunpengzhi.git";
-        git push -f ali HEAD:$CI_COMMIT_REF_NAME;
-      else
-        echo "YUNXIAO_ACCESS_TOKEN not found, skipping Aliyun sync.";
-      fi
   only:
     - main
     - develop
