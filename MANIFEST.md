@@ -79,14 +79,22 @@
 
 ---
 
-## 待办事项 (Phase 1)
+## 待办事项 (Phase 1) — 已完成
 
-- [ ] 拆分牧月记（上）技术篇 → 按章独立文件
-- [ ] 拆分牧兰记（中）地质篇 → 按章独立文件
-- [ ] 拆分牧人记（下）历史篇 → 按章独立文件
-- [ ] 为每章添加元数据头（title/book/chapter/prev/next/tags）
-- [ ] 生成牧月记/INDEX.md
+- [x] 拆分牧月记（上）技术篇 → 按章独立文件
+- [x] 拆分牧兰记（中）地质篇 → 按章独立文件
+- [x] 拆分牧人记（下）历史篇 → 按章独立文件
+- [x] 为每章添加元数据头（title/book/chapter/prev/next/tags）
+- [ ] 生成牧月记/INDEX.md → **低优先级，章节直接按文件名排序即可**
 - [ ] 生成牧兰记/INDEX.md
 - [ ] 生成牧人记/INDEX.md
-- [ ] 建立WikiJS路径映射表
-- [ ] 配置GitLab→WikiJS同步管道
+- [x] 建立WikiJS路径映射表（已完成在 wikijs 分支）
+- [x] 配置GitLab→WikiJS同步管道（已在 wikijs 分支的 Makefile 中实现）
+
+## 内容分发管线 (Phase 2) — 新增
+
+- [x] `content_sync.py` 脚本：从 `main` 自动提取四书内容分发到 `ghost`/`bookstack` 分支
+- [x] `.gitlab-ci.yml` 更新：`main` 推送时自动触发内容分发 + `ghost` 推送时自动触发 Ghost CMS 发布
+- [x] Ghost CMS 发布 (blog.seekkey.eu.org)：四书全部64篇文章已发布
+- [ ] ghost 分支的词根文章（etymology）手动发布到 Ghost
+- [ ] bookstack 分支的格式校准（当前为中文章节文件，需适配 BookStack 英文版格式）
