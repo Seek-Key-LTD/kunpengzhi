@@ -1,6 +1,10 @@
 stages:
   - sync
+  - publish
 
+# =========================================
+# 0. GitHub 双向同步
+# =========================================
 sync_all:
   stage: sync
   tags:
@@ -24,3 +28,38 @@ sync_all:
     - i18n
     - wikijs
     - wikijs-new
+
+# =========================================
+# 1. 内容分发：main 更新时自动同步到各发布分支
+# =========================================
+content-distribute:
+  stage: sync
+  tags: [group]
+  script:
+    - |
+      echo "🔄 开始内容分发..."
+      # 同步到 ghost 分支（章节文件）
+      python3 content_sync.py --target ghost
+      # 同步到 bookstack 分支（章节文件）
+      python3 content_sync.py --target bookstack
+      echo "✅ 内容分发完成"
+  only:
+    - main
+
+# =========================================
+# 2. Ghost 发布：ghost 分支更新后推送到 Ghost CMS
+# =========================================
+publish-ghost-posts:
+  stage: publish
+  tags: [group]
+  script:
+    - |
+      echo "📝 发布到 Ghost CMS (blog.seekkey.eu.org)..."
+      pip3 install PyJWT requests markdown-it-py -q
+      python3 ghost_sync.py 牧人记/
+      python3 ghost_sync.py 牧兰记/
+      python3 ghost_sync.py 牧月记/
+      python3 ghost_sync.py 双约记/
+      echo "✅ Ghost 发布完成"
+  only:
+    - ghost
