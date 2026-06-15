@@ -315,6 +315,18 @@
 - 鞑靼（Tatar）= 北方的"爸爸"（我的鞑靼 = 我的父亲）
 - 耶和华（Jehovah）= 父亲形象，没有母亲 → 天父崇拜的宗教表达
 
+### 二十七、夜郎/伊朗/Ivana/Ionian 词根链
+
+- **云南郡**：汉朝设立，因打不过昆明夷只能封 → 司马迁挤兑为"夜郎自大"
+- **夜郎 ≈ 伊朗（Iran）**：发音相似，Iran 对应 Turan（图兰 vs 伊朗 = 昆仑山内外分野，见第八节）
+- **云南/越南 = 同一词根**：Ivana
+- **Ivana/Ivanka/Ivanov**：Trump 女儿 Ivana、Ivanka，俄罗斯 Ivanov → 全部来自同一词根
+- **约拿（Jonah）→ Ion**：16 世纪之前没有 J 发音 → Jonah 原读 = Ion
+- **Ion → 爱奥尼亚人（Ionian）**：圣经中称西北方向的希腊人为爱奥尼亚人
+- **伊凡娜（Ivana）**= 爱奥尼亚的女性形式
+
+链条：夜郎 ≈ Iran ↔ Turan → 云南/越南 = Ivana → Ivanov/Ivanka → Jonah = Ion → Ionian（爱奥尼亚）
+
 ---
 
 ## 第二部：地
