@@ -1,11 +1,13 @@
 ---
-title: "第一章 亚特兰蒂斯，Where Are You Now"
-description: "牧兰记 - 第一章 亚特兰蒂斯，Where Are You Now"
-book: "牧兰记"
-published: "true"
-date: "2026-05-07T12:00:00.000Z"
-tags: ['牧兰记', '地质']
-editor: "markdown"
+title: 第一章 亚特兰蒂斯，Where Are You Now
+description: 牧兰记 - 第一章 亚特兰蒂斯，Where Are You Now
+book: 牧兰记
+published: 'true'
+date: '2026-05-07T12:00:00.000Z'
+tags:
+- 牧兰记
+- 地质
+editor: markdown
 ---
 
 第一章 亚特兰蒂斯，Where Are You Now
@@ -283,6 +285,3 @@ editor: "markdown"
 
 可地质证据不会说谎——珊瑚礁的生长范围、冰芯的氧同位素、海底地壳的下陷痕迹，都在指向同一个结论：仙女木事件的“凶器”不在北美，而在白令海；白令陆桥的“海平面迷思”，不过是我们用错模型、找错方向的产物。
 那么，鄂霍次克海究竟是一片怎样的海洋呢？
-
-
-

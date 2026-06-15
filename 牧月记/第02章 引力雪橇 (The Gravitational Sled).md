@@ -1,11 +1,13 @@
 ---
-title: "第二章 引力雪橇 (The Gravitational Sled)"
-description: "牧月记 - 第二章 引力雪橇 (The Gravitational Sled)"
-book: "牧月记"
-published: "true"
-date: "2026-05-07T12:00:00.000Z"
-tags: ['牧月记', '技术']
-editor: "markdown"
+title: 第二章 引力雪橇 (The Gravitational Sled)
+description: 牧月记 - 第二章 引力雪橇 (The Gravitational Sled)
+book: 牧月记
+published: 'true'
+date: '2026-05-07T12:00:00.000Z'
+tags:
+- 牧月记
+- 技术
+editor: markdown
 ---
 
 第二章 引力雪橇 (The Gravitational Sled)
@@ -94,9 +96,3 @@ editor: "markdown"
 这就是“引力雪橇”。 没有工质喷射，没有反作用力，只有相位的诱导。
 这就像一列没有铁轨的宇宙列车，它们之间靠着推迟势（Retarded Potential）这个看不见的皮鞭，在黄道面上划出了一道甚至连光都无法逃逸的轨迹。
 Jingle bells, jingle bells, jingle all the way. 那不是儿歌，那是引力波扫过真空时的震颤频率。
-
-
-
-
-
-
