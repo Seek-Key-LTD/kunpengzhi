@@ -201,6 +201,8 @@ def sync_branch(target_name):
                 
                 for src_file in files:
                     dst_path = dst_dir / src_file.name
+                    if src_file.resolve() == dst_path.resolve():
+                        continue  # 已在目标分支，相同文件跳过
                     shutil.copy2(src_file, dst_path)
                     
                     # 应用 frontmatter 转换
@@ -214,7 +216,8 @@ def sync_branch(target_name):
                         src_extra = src_dir / extra_file
                         if src_extra.exists():
                             dst_extra = dst_dir / extra_file
-                            shutil.copy2(src_extra, dst_extra)
+                            if src_extra.resolve() != dst_extra.resolve():
+                                shutil.copy2(src_extra, dst_extra)
                             log(f"    复制: {extra_file}")
         
         # 提交变更
