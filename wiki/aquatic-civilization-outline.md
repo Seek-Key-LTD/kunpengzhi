@@ -325,7 +325,7 @@
 - **Ion → 爱奥尼亚人（Ionian）**：圣经中称西北方向的希腊人为爱奥尼亚人
 - **伊凡娜（Ivana）**= 爱奥尼亚的女性形式
 
-链条：夜郎 ≈ Iran ↔ Turan → 云南/越南 = Ivana → Ivanov/Ivanka → Jonah = Ion → Ionian（爱奥尼亚）
+链条：夜郎 ≈ Iran ↔ Turan → 云南/越南 = Ivana → Ivanov/Ivanka → Jonah = Ion → Ionian（爱奥尼亚）→ Yunan → Yuga/瑜伽（进入印度后）→ 日语"yoga"（夸人牛逼的表达，和"哟西"同类）
 
 ---
 
