@@ -293,6 +293,9 @@
 - 萨摩耶（Samoyed）→ 因纽特/加拿大的狗品种
 - 萨摩藩（Satsuma）→ 日本（另有长州藩）
 - Summon（召唤/起誓）→ "我向你起誓" = summon
+- **萨满（Shaman）**→ 东北跳大神 = 通灵者/通天者
+- **沙门（Shramana）**→ 原始佛教阶段 = 沙门运动
+- **亚历山大港（Alexandria）**→ 待补充（用户索引暂时锁定）。可能线索：Serapis（塞拉皮斯）/ Serapeum（塞拉皮雍神庙）与 Sam/Shaman 的词根关联？
 - 全部和前面的 Salmon/Summer/夏 同根
 
 **摩诃/Salmon/Simon/夏 链条：**
