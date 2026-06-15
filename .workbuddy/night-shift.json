@@ -1,1 +1,13 @@
-{"done":["podcast:ch00-09","audiobook:ch00-09","music:ch01-09","distribute:ghost_bookstack_synced","ghost:etymology_24_published"],"errors":[],"phase":"complete"}
+{
+  "done": [
+    "podcast:ch00-09",
+    "audiobook:ch00-09",
+    "music:ch01-09",
+    "distribute:ghost_bookstack_synced",
+    "ghost:etymology_26_updated"
+  ],
+  "errors": [],
+  "phase": "complete",
+  "last_run": "2026-06-16T05:14:00",
+  "last_commit": "d8c253f"
+}
