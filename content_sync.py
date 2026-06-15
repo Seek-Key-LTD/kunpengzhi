@@ -183,42 +183,22 @@ def sync_branch(target_name):
         # 切换到目标分支
         run_git("checkout", branch)
         
-        # 复制四书内容
+        # 从 main 分支拉取四书内容到目标分支工作树
         if target["copy_books"]:
-            log("复制四书章节文件...")
-            for book_name, book_config in BOOKS.items():
-                src_dir = REPO_ROOT / book_config["dir"]
-                dst_dir = REPO_ROOT / book_config["dir"]
-                
-                if not src_dir.exists():
-                    log(f"  源目录不存在: {src_dir} (可能需要在 main 分支)", "WARN")
-                    continue
-                
-                os.makedirs(dst_dir, exist_ok=True)
-                
-                files = collect_chapter_files(book_name, book_config)
-                log(f"  {book_name}: {len(files)} 个章节文件")
-                
-                for src_file in files:
-                    dst_path = dst_dir / src_file.name
-                    if src_file.resolve() == dst_path.resolve():
-                        continue  # 已在目标分支，相同文件跳过
-                    shutil.copy2(src_file, dst_path)
-                    
-                    # 应用 frontmatter 转换
-                    if target.get("frontmatter_transform"):
-                        transform_frontmatter(dst_path, book_name, target["frontmatter_transform"])
-                
-                # 复制 preface 和 toc
-                for extra in ["preface", "toc"]:
-                    extra_file = book_config.get(extra)
-                    if extra_file:
-                        src_extra = src_dir / extra_file
-                        if src_extra.exists():
-                            dst_extra = dst_dir / extra_file
-                            if src_extra.resolve() != dst_extra.resolve():
-                                shutil.copy2(src_extra, dst_extra)
-                            log(f"    复制: {extra_file}")
+            log("从 main 分支拉取四书章节文件...")
+            book_dirs = [c["dir"] for c in BOOKS.values()]
+            # 使用 git checkout main -- <dirs> 将 main 分支的文件覆盖到当前工作树
+            run_git("checkout", "main", "--", *book_dirs)
+            log("✅ 已从 main 拉取最新内容")
+            
+            # 应用 frontmatter 转换
+            if target.get("frontmatter_transform"):
+                for book_name, book_config in BOOKS.items():
+                    book_dir = REPO_ROOT / book_config["dir"]
+                    if not book_dir.exists():
+                        continue
+                    for f in book_dir.glob("*.md"):
+                        transform_frontmatter(f, book_name, target["frontmatter_transform"])
         
         # 提交变更
         result = run_git("status", "--porcelain")
