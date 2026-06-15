@@ -604,7 +604,11 @@
   - **非洲地理命名的K-音语义根回响**：
     - **乞力马扎罗山（Kilimanjaro）**：非洲最高峰
       - **Kili = 昆仑（Kunlun）**= 高/天/权威——K-音语义根的又一个实例（见"K-音语义根"相关章节）
-      - **Majaro** = ？（联想：Manjaro Linux 发行版，但含义不明）
+      - **Majaro** = Manjaro（Arch Linux 维护的发行版）——必然是一个有含义的词
+      - **语法结构 = 偏正短语**：
+        - 不是"如昆仑般牛逼的马扎罗"（Majaro modified by Kili）
+        - 而是"如马扎罗般的昆仑/高处"（Kili modified by Majaro）
+        - Kili 是核心概念（高/山/昆仑），Majaro 是修饰语——强调这个"高处"具有 Majaro 的特质
       - 主流词源：Kilima（斯瓦希里语"山"）+ Njaro（查加语"白色"）= "白色之山"——但这只是表面拆解
       - 为什么非洲最高峰的命名会包含K-音语义根？这个 naming class 是从哪来的？
     - **划界的霸道程度**：
