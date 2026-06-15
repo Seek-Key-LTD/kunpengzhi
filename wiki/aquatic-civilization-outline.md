@@ -286,6 +286,15 @@
 - 原本读"喝"（hē），现读"羯"（jié），原因不明
 - 摩羯不成字，摩诃才成字
 
+**Sam/Sim/Sum 词根链（= 夏/Summer）：**
+- Simon → Peter（彼得原名 Simon）
+- Samuel（萨默尔汗）
+- 萨莫斯岛（Samos）→ 爱奥尼亚所有牛人都来自萨莫斯岛
+- 萨摩耶（Samoyed）→ 因纽特/加拿大的狗品种
+- 萨摩藩（Satsuma）→ 日本（另有长州藩）
+- Summon（召唤/起誓）→ "我向你起誓" = summon
+- 全部和前面的 Salmon/Summer/夏 同根
+
 **摩诃/Salmon/Simon/夏 链条：**
 - 摩诃（Mahā）= 藏语/佛经中"伟大的"
 - 摩诃 = 大马哈鱼的词源
