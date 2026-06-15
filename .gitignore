@@ -1,5 +1,6 @@
 # Local configurations
 .obsidian/
+.workbuddy/
 .env
 
 # OS files
