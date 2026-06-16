@@ -4,19 +4,19 @@
     "audiobook:ch00-09",
     "music:ch01-09",
     "distribute:ghost_bookstack_synced",
-    "ghost:etymology_25_reconfirmed"
+    "ghost:etymology_50_ghost_branch_no_cms"
   ],
   "errors": [],
   "phase": "idle",
-  "last_run": "2026-06-16T12:34:53",
-  "last_commit": "cc3c15e",
+  "last_run": "2026-06-16T16:02:00",
+  "last_commit": "2e3fda6",
   "status": {
-    "content": "all chapters processed, no new ch10+",
+    "content": "all chapters processed, no ch10+",
     "podcast": "ch00-09 complete",
     "audiobook": "ch00-09 complete",
     "music": "ch01-09 complete",
-    "distribution": "ghost(84), bookstack(84) — synced, pushed to origin",
-    "etymology": "25 entries on ghost, no ghost_sync.py available",
+    "distribution": "ghost(84), bookstack(84) — synced, content_sync.py reported clean",
+    "etymology": "50 entries on ghost branch (25 upper + 25 lower), no ghost_sync.py — can't publish to Ghost CMS",
     "new_content": "none",
     "workspace": "/Users/ben/code/glab/kunpengzhi"
   }
