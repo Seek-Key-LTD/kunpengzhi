@@ -4,12 +4,20 @@
     "audiobook:ch00-09",
     "music:ch01-09",
     "distribute:ghost_bookstack_synced",
-    "ghost:etymology_26_updated",
-    "ghost:etymology_24_reconfirmed_2026-06-16T07:50"
+    "ghost:etymology_25_reconfirmed"
   ],
   "errors": [],
-  "phase": "complete",
-  "last_run": "2026-06-16T10:15:00",
-  "last_commit": "836315d",
-  "last_action": "ghost:etymology_25_reconfirmed_2026-06-16T10:15"
+  "phase": "idle",
+  "last_run": "2026-06-16T11:34:51",
+  "last_commit": "32a7d54",
+  "status": {
+    "content": "all chapters processed, no new ch10+",
+    "podcast": "ch00-09 complete",
+    "audiobook": "ch00-09 complete",
+    "music": "ch01-09 complete",
+    "distribution": "ghost(84), bookstack(84) — synced",
+    "etymology": "25 entries on ghost, no ghost_sync.py available",
+    "new_content": "none",
+    "workspace": "/Users/ben/code/glab/kunpengzhi"
+  }
 }
