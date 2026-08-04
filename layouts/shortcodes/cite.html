@@ -1,0 +1,7 @@
+{{- $id := .Get 0 -}}
+{{- $atoms := index .Site.Data "atoms" -}}
+{{- $a := index $atoms $id -}}
+{{- $colors := dict "原文陈述" "#16a34a" "推演" "#ca8a04" "考证" "#2563eb" "外部史料" "#ea580c" "跨章编译" "#7c3aed" "隐喻" "#db2777" -}}
+{{- if $a -}}
+<span class="cite-badge" style="background:{{ index $colors $a.type | default "#57606a" }}" title="{{ $a.name }} · {{ $a.type }} · {{ $a.claim }}">{{ $a.name }}</span>
+{{- else -}}<span class="cite-badge" style="background:#57606a">{{ $id }}</span>{{- end -}}
