@@ -9,7 +9,7 @@
 
 鲲鹏志是一个跨学科著作体系，暂称"四书"。从宇宙学到语言学，从地质学到政治经济学，用工程审计的方法论重新审视文明史。
 
-**仓库**：`gitlab.git4ta.fun/seekkey/kunpengzhi.git`
+**仓库**：`github.com/Seek-Key-LTD/kunpengzhi.git`
 
 ---
 
